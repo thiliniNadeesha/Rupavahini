@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rupavahini</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="communicate">Communicate</string>
+    <string name="programe">Programe</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="tv_shedule">TV Shedule</string>
+    <string name="after_next">After Next</string>
+    <string name="next">Next</string>
+    <string name="title_activity_tv_shedule">Tv_shedule</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_shedul">Shedul</string>
+    <string name="title_activity_live_tv">Live_tv</string>
+</resources>

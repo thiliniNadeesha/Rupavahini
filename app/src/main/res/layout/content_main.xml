@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nadeeshaabesekara.rupavahini.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+<VideoView
+    android:layout_width="0dp"
+    android:layout_height="302dp"
+    tools:layout_editor_absoluteY="-243dp"
+    tools:layout_constraintRight_creator="1"
+    app:layout_constraintRight_toRightOf="parent"
+    tools:layout_constraintLeft_creator="1"
+    app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Now"
+        tools:ignore="HardcodedText"
+        android:id="@+id/textView4"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="227dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="next"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintRight_toRightOf="@+id/textView4"
+        android:layout_marginTop="67dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="After Next"
+        tools:ignore="HardcodedText"
+        android:id="@+id/textView5"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="79dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        tools:ignore="LabelFor,TextFields"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
+        app:layout_constraintRight_toRightOf="@+id/editText4"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText4" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        tools:ignore="LabelFor,TextFields"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintRight_toRightOf="@+id/editText3"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3"
+        android:id="@+id/editText4" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        tools:ignore="LabelFor,TextFields"
+        android:id="@+id/editText3"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="181dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="181dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="79dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
